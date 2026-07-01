@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR6a0050/v1
+canonical_location: https://kanripo.org/bkk/KR6a0050/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 受歲經
+  identifiers:
+    alt_id:
+    - T01n0050
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0050.xml
+    old_id: T01n0050
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0050_000.yaml, hash: 'sha256:3a628fee0fff4116c39b5d6e06abc93afd92caea02b55ee253c2a9cf7043e6b7'}
+  - {seq: 1, filename: KR6a0050_001.yaml, hash: 'sha256:cdabc3b3f08d6aad7009be1b7540c4b3af23443713ab8c687a600ff5c88bcdb0'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0050_001.markers.yaml, hash: 'sha256:72257b944bb2d8c938b1776b61cbba97c1d492ff42ec6c99399f8c515dc444e6'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0050_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 1923
+  label: 佛說受歲經
+  type: juan
+  level: 1
+hash: sha256:b98d0c17ade0d8fe94dda9c137c199b1cc10530807ab455f6f9d520b86663dd5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
