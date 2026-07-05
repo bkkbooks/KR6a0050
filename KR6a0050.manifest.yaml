@@ -31,9 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0050_000.yaml, hash: 'sha256:3a628fee0fff4116c39b5d6e06abc93afd92caea02b55ee253c2a9cf7043e6b7'}
-  - {seq: 1, filename: KR6a0050_001.yaml, hash: 'sha256:cdabc3b3f08d6aad7009be1b7540c4b3af23443713ab8c687a600ff5c88bcdb0'}
+  - {seq: 1, filename: KR6a0050_001.yaml, hash: 'sha256:48987e2ea0343b2cc86b301dbf663d3d9e7e273637bcad6a300d6149a4f47137'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0050_001.markers.yaml, hash: 'sha256:72257b944bb2d8c938b1776b61cbba97c1d492ff42ec6c99399f8c515dc444e6'}
+  - {seq: 0, role: markers, filename: assets/KR6a0050_000.markers.yaml, hash: 'sha256:f5301d5a7f470c39d648e6f4f1db09b592412e3f6b71453d2c88df2478590d7b'}
+  - {seq: 1, role: markers, filename: assets/KR6a0050_001.markers.yaml, hash: 'sha256:ffba96b13e4707ba712c2087788d18fc4bd9a86a0d287da9a70f35dffc153de0'}
 table_of_contents:
 - ref:
     seq: 1
@@ -45,7 +46,4 @@ table_of_contents:
   label: 佛說受歲經
   type: juan
   level: 1
-hash: sha256:b98d0c17ade0d8fe94dda9c137c199b1cc10530807ab455f6f9d520b86663dd5
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:83c9b959bbf0d432b691e73d95f554495d8a27c169dda584805a1ce43898b0fe
