@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6a0050/v1
 canonical_location: https://kanripo.org/bkk/KR6a0050/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 受歲經
   identifiers:
@@ -31,10 +31,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0050_000.yaml, hash: 'sha256:3a628fee0fff4116c39b5d6e06abc93afd92caea02b55ee253c2a9cf7043e6b7'}
-  - {seq: 1, filename: KR6a0050_001.yaml, hash: 'sha256:48987e2ea0343b2cc86b301dbf663d3d9e7e273637bcad6a300d6149a4f47137'}
+  - {seq: 1, filename: KR6a0050_001.yaml, hash: 'sha256:065897ca43f2aa791289fddc909a2248f0821f9fadc5cfdb53e8bee46e390383'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6a0050_000.markers.yaml, hash: 'sha256:f5301d5a7f470c39d648e6f4f1db09b592412e3f6b71453d2c88df2478590d7b'}
-  - {seq: 1, role: markers, filename: assets/KR6a0050_001.markers.yaml, hash: 'sha256:ffba96b13e4707ba712c2087788d18fc4bd9a86a0d287da9a70f35dffc153de0'}
+  - {seq: 1, role: markers, filename: assets/KR6a0050_001.markers.yaml, hash: 'sha256:c54091a067b1597184a785c046c182b6ff6af82aa8152333f648a1215bedf9b7'}
 table_of_contents:
 - ref:
     seq: 1
@@ -46,4 +46,7 @@ table_of_contents:
   label: 佛說受歲經
   type: juan
   level: 1
-hash: sha256:83c9b959bbf0d432b691e73d95f554495d8a27c169dda584805a1ce43898b0fe
+hash: sha256:dba12394883b0b253f1ba88987957c132192e07a6cd3ae3bfe288068cb938f5b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
