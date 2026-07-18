@@ -33,7 +33,7 @@ assets:
   - {seq: 0, filename: KR6a0050_000.yaml, hash: 'sha256:3a628fee0fff4116c39b5d6e06abc93afd92caea02b55ee253c2a9cf7043e6b7'}
   - {seq: 1, filename: KR6a0050_001.yaml, hash: 'sha256:065897ca43f2aa791289fddc909a2248f0821f9fadc5cfdb53e8bee46e390383'}
   markers:
-  - {seq: 0, role: markers, filename: assets/KR6a0050_000.markers.yaml, hash: 'sha256:f5301d5a7f470c39d648e6f4f1db09b592412e3f6b71453d2c88df2478590d7b'}
+  - {seq: 0, role: markers, filename: assets/KR6a0050_000.markers.yaml, hash: 'sha256:0ca51cd9e07685fdc6f8a3493ee20de2d7d5b25fbd857aedf95cfc83e0b64c74'}
   - {seq: 1, role: markers, filename: assets/KR6a0050_001.markers.yaml, hash: 'sha256:c54091a067b1597184a785c046c182b6ff6af82aa8152333f648a1215bedf9b7'}
 table_of_contents:
 - ref:
@@ -46,7 +46,7 @@ table_of_contents:
   label: 佛說受歲經
   type: juan
   level: 1
-hash: sha256:dba12394883b0b253f1ba88987957c132192e07a6cd3ae3bfe288068cb938f5b
+hash: sha256:57d4427c3a89d2862525d35ef807c599f43eadc2d4fa161a292db484e47dd828
 mappings:
 - canonical_identifier: bkk:mapping/variant-fold-v1
   hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
